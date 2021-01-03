@@ -11,7 +11,7 @@ def main():
 	parser.add_argument('-x', '--hex', action='store_true', help='hexadecimal mode')			
 	parser.add_argument('-p', '--pad', action='store_true', help='data padding (default off)')			
 	parser.add_argument('--linestart', type=int, default=1000, help='first data line (default=1000)')	
-	parser.add_argument('--lineinc', type=int, default=10, help='increment (default=10')
+	parser.add_argument('--lineinc', type=int, default=10, help='increment (default=10)')
 	parser.add_argument('--dataperline', type=int, help='maximum number of data per line (default=unbounded)')
 
 	args = parser.parse_args()
